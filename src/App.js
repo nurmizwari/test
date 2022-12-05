@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <nav class="navbar bg-dark">
+        <nav class="navbar nav ">
           <div class="container-fluid">
             <div className="col">
               <img src={log1} alt="logo1" />
