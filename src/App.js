@@ -1,13 +1,19 @@
 import logo from "./logo.svg";
 import "./App.css";
+import logo1 from "./asset/image 4.png";
+import log1 from "./asset/Logo.png";
+import log2 from "./asset/Digicoins.png";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <nav class="navbar bg-light">
+        <nav class="navbar bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand">Digicoin</a>
+            <div className="col">
+              <img src={log1} alt="logo1" />
+              <img src={log2} alt="logo2" />
+            </div>
             <p>EN/USD | </p>
           </div>
         </nav>
@@ -19,7 +25,7 @@ function App() {
         </div>
         <div className="row">
           <div className="col">
-            <h2>gambar</h2>
+            <img src={logo1} alt="logo" width={399} />
           </div>
           <div className="col">
             <h1>Sign up</h1>
